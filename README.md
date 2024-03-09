@@ -1,0 +1,1 @@
+# module-azurerm-data-container-registry
