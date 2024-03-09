@@ -8,10 +8,12 @@ output "login_server" {
 
 output "admin_username" {
     value = data.azurerm_container_registry.data-acr.admin_username
+    sensitive    = true
 }
 
 output "admin_password" {
     value = data.azurerm_container_registry.data-acr.admin_password
+    sensitive    = true
 }
 
 output "location" {
